@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style1.css">
+    <title>FOREVER BROS</title>
+</head>
+<body>
+    <form action="index.html" method="get" enctype="multipart/form-data">
+        <div>
+         <label for="username">USERNAME</label>
+         <input type="text" name="username" id="username" required>
+        </div>
+
+        <div>
+            <label for="password">PASSWORD</label>
+            <input type="password" name="password" id="password" required>
+        </div>
+
+        <div>
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div>
+            <label for="dateofbirth">DATE OF BIRTH</label>
+            <input type="date" name="dateofbirth" id="dateofbirth" min="1900-01-01" required>
+        </div>
+
+        <div>
+            <label for="about">ABOUT</label>
+            <textarea name="about" id="about" cols="20" rows="6" required>PODA SUNNI</textarea>
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="telephonenumber">TELEPHONE NUMBER</label>
+            <input type="tel" name="telephonenumber" id="telephonenumber" required>
+        </div>
+        <br>
+
+        <div>
+            <select for="state" id="state" multiple required>
+                <option value="tamilnadu">TAMILNADU</option>
+                <option value="KERALA">KERALA</option>
+                <option value="telangana">TELANGANA</option>
+                <option value="maharastra">MAHARASTRA</option>
+                <option value="gujarat">GUJARAT</option>
+                <option value="telangana">TELANGANA</option>
+                <option value="DELHI">DELHI</option>
+                <option value="assam">ASSAM</option>
+            </select>
+        </div>
+
+    <br>
+
+        <div>
+            <label for="male">MALE</label>
+            <input type="radio" name="gender" id="male" required>
+        </div>
+
+        <div>
+            <label for="female">FEMALE</label>
+            <input type="radio" name="gender" id="female" required>
+        </div>
+
+        <div>
+            <label for="lesbian">LESBIAN</label>
+            <input type="radio" name="gender" id="lesbian" required>
+        </div>
+
+        <div>
+            <label for="gay">GAY</label>
+            <input type="radio" name="gender" id="gay" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="file">RESUME</label>
+            <input type="file" name="file" id="file" required>
+        </div>
+        
+
+        <div>
+            <label for="receiveournotifactions">RECIEVE OUR NOTIFICATIONS</label>
+            <input type="checkbox" name="receiveournotifactions" id="receiveournotifactions" required>
+        </div>
+        
+        <button type="submit" class="button">SIGN UP</button>
+         <input type="image" src="signup.jpg">
+        <button type="reset">RESET</button>
+    </form>
+</body>
+</html>
